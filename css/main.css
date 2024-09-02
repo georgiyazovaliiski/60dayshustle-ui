@@ -1019,6 +1019,10 @@ video {
 }
 
 @media (min-width: 480px) {
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1043,6 +1047,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:py-0 {
